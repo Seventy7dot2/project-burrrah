@@ -21,7 +21,7 @@ const LineStyles = styled(Image)`
   left: ${(props) => props.left};
   bottom: ${(props) => props.bottom};
 `
-const Line = (props) => (
+export const Line = (props) => (
   <LineStyles
     src="https://res.cloudinary.com/dra96qhox/image/upload/v1704284949/Line_46_l0jm2p.png"
     alt="line"
